@@ -38,7 +38,8 @@ my $stm = time;
 
 #####  Begin logic: #####
 
-print "Selected api url endpoint: $api_url\n";
+print "API url endpoint to get number of pages: $api_url\n";
+print "API url endpoint to get dumps: $export_url\n";
 mkdir $output_dir unless -d $output_dir;
 
 # saving cookies file
